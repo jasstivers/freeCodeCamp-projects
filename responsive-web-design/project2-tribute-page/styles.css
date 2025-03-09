@@ -1,0 +1,48 @@
+main{
+  width: 100%;
+  background-color: #f8f0f6;
+  margin: 20px auto;
+  padding: 40px 20px;
+}
+
+h1,p,figcaption,h3 {
+   text-align: center;
+   color: #4a2f5c;
+}
+
+img{
+ display: block;
+}
+
+#image{
+  max-width:100%;
+  height:auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#tribute-info{
+  max-width:50%;
+  margin: 30px auto;
+  color: #4a2f5c;
+}
+
+#evaluate1,#evaluate2{
+  max-width:50%;
+  margin: 0 auto;
+  color: #8a7f9d;
+}
+
+li{
+ margin-bottom:20px;
+  color: #4a2f5c;
+}
+
+a{
+  color: #d56b9b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff8da1;
+}
