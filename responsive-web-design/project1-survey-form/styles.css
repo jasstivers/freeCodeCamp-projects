@@ -1,0 +1,65 @@
+body{
+  width: 100%;
+  color:white;
+  background-color:#3b7f6a;
+  margin:20px 0 auto auto;
+}
+
+
+h1, p{
+   text-align: center;
+}
+
+h1{
+  margin-bottom:0;
+}
+
+p{
+  margin-top:0;
+  font-style: italic;
+}
+
+
+form {
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color:#004643;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#submit{
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:#f6bb61;
+  border:0;
+  min-width: 300px;
+}
+
+label, textarea {
+  display: block;
+  width: 100%;
+}
+
+#suggestions{
+  margin-bottom: 1rem;
+}
+
+
+textarea {
+  height: 100px;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Archaeology Survey Form</title>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <h1 id="title">Archaeology Survey Form</h1>
+    <p id="description">Thank you for sharing your thoughts about ancient Rome and medieval Europe!</p>
+
+    <form id="survey-form">
+      <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label for="number" id="number-label">Age (optional) <input id="number" type="number" placeholder="Age" min="13" max="120"></label>
+
+      <label for="role">Which period interests you the most?
+        <select id="role" name="role">
+          <option value="">Select a period</option>
+          <option value="1">Ancient Rome</option>
+          <option value="2">Medieval Europe</option>
+          <option value="3">Other</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>Would you recommend studying this field to a friend?</legend>
+        <label for="definitely"><input type="radio" id="definitely" name="recommend" checked value="definitely">Definitely</label>
+        <label for="maybe"><input type="radio" id="maybe" name="recommend" value="maybe">Maybe</label>
+        <label for="notsure"><input type="radio" id="notsure" name="recommend" value="notsure">Not sure</label>
+      </fieldset>
+
+      <label for="dropdown">What is your favorite topic within ancient Rome or medieval Europe?
+        <select name="dropdown" placeholder="Select an option" id="dropdown">
+          <option value="">Select an option</option>
+          <option value="1">Roman Architecture</option>
+          <option value="2">Medieval Castles</option>
+          <option value="3">Roman Empire Politics</option>
+          <option value="4">Medieval Knights</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>What would you like to learn more about? (Check all that apply)</legend>
+        <label for="RomanArtifacts"><input type="checkbox" id="RomanArtifacts" name="improvements" value="RomanArtifacts">Roman Artifacts</label>
+        <label for="MedievalManuscripts"><input type="checkbox" id="MedievalManuscripts" name="improvements" value="MedievalManuscripts">Medieval Manuscripts</label>
+        <label for="RomanTombs"><input type="checkbox" id="RomanTombs" name="improvements" value="RomanTombs">Roman Tombs</label>
+        <label for="MedievalArmor"><input type="checkbox" id="MedievalArmor" name="improvements" value="MedievalArmor">Medieval Armor</label>
+        <label for="AncientArt"><input type="checkbox" id="AncientArt" name="improvements" value="AncientArt">Ancient Art</label>
+      </fieldset>
+
+      <label id="suggestions">Any comments or suggestions?
+        <textarea placeholder="Enter your comment here..."></textarea>
+      </label>
+
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
