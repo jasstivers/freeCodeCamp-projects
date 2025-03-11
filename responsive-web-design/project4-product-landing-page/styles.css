@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #FFF1DB; /* 背景色使用淡黄色 */
+  background-color: #FFF1DB;
   font-family: Arial, sans-serif;
 }
 
@@ -17,10 +17,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #D4BDAC; /* 导航栏背景色使用淡咖色 */
+  background: #D4BDAC;
   padding: 10px;
   z-index: 1000;
-  border-bottom: 1px solid #536493; /* 下边框使用深蓝色 */
+  border-bottom: 1px solid #536493;
 }
 
 .logo-container {
@@ -29,13 +29,13 @@ body {
 }
 
 #header-img {
-  max-width: 50px; /* 将logo图片的大小调小 */
+  max-width: 50px;
   height: auto;
 }
 
 .the-product {
   font-size: 1.5rem;
-  color: #536493; /* 产品名使用深蓝色 */
+  color: #536493;
   margin-left: 10px;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #536493; /* 导航链接使用深蓝色 */
+  color: #536493;
   font-size: 16px;
 }
 
@@ -58,8 +58,7 @@ body {
 #hero h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
-  color: #536493; /* 主标题使用深蓝色 */
-}
+  color: #536493;
 
 #hero form {
   display: flex;
@@ -71,26 +70,26 @@ body {
 #hero input {
   padding: 10px;
   font-size: 1rem;
-  border: 1px solid #D4BDAC; /* 输入框的边框使用淡咖色 */
+  border: 1px solid #D4BDAC;
   border-radius: 5px;
 }
 
 #submit {
-  background-color: #88C273; /* 绿色背景 */
-  border: 2px solid #536493; /* 边框颜色 */
-  color: white; /* 字体颜色 */
+  background-color: #88C273;
+  border: 2px solid #536493;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 #submit:hover {
-  background-color: #77a85e; /* 更深的绿色，当鼠标悬停时 */
+  background-color: #77a85e;
 }
 
 #features {
   display: flex;
-  flex-direction: column; /* 使元素垂直排列 */
+  flex-direction: column;
   align-items: center;
   padding: 50px 20px;
   text-align: center;
@@ -104,24 +103,23 @@ body {
 }
 
 .icon {
-  margin-right: 20px; /* 图标和文本之间的间距 */
-  color: #88C273; /* 图标使用绿色 */
+  margin-right: 20px;
+  color: #88C273;
 }
 
 .text {
-  max-width: 600px; /* 可选：限制文本宽度，防止文本过宽 */
+  max-width: 600px;
 }
 
 .text h2 {
-  color: #536493; /* 特征标题使用深蓝色 */
-  margin-bottom: 0;
+  color: #536493;
 }
 
 #how-it-Works {
   display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center; /* 垂直居中 */
-  height: 100vh; /* 如果需要全屏高度 */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
 }
 
@@ -134,8 +132,8 @@ body {
 #electric, #upright, #grand {
   text-align: center;
   padding: 20px 0;
-  border: 1px solid #D4BDAC; /* 价格区块边框使用淡咖色 */
-  background-color: #FFF1DB; /* 背景色使用淡黄色 */
+  border: 1px solid #D4BDAC;
+  background-color: #FFF1DB;
   border-radius: 5px;
 }
 
@@ -143,21 +141,21 @@ body {
   display: block;
   margin: 10px auto;
   padding: 10px 20px;
-  background-color: #88C273; /* 按钮背景使用绿色 */
+  background-color: #88C273;
   color: white;
-  border: 2px solid #D4BDAC; /* 边框颜色 */
+  border: 2px solid #D4BDAC;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #77a85e; /* 更深的绿色，当鼠标悬停时 */
+  background-color: #77a85e;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #536493; /* 页脚背景色使用深蓝色 */
+  background: #536493;
   color: white;
 }
 
