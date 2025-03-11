@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+#nav-bar{
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+
+.logo {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.logo img {
+max-width: 300px;
+width: 100%; /* 在 .logo 容器宽度内自适应 */
+height: auto; /* 避免图片拉伸 */
+margin-left: 20px; /* 仅在需要时使用 */
+}
+
+
+
+
+
+
+.nav-link {
+text-decoration: none;
+color: black;
+font-size: 16px;
+margin-right:20px;
+}
+
+
+
+#hero{
+margin:50px auto;
+text-align: center;
+}
+
+#hero>h2{
+display:flex;
+justify-content:center;
+margin-bottom:15px;
+}
+#hero>form{
+display:flex;
+justify-content:center;
+margin: 0 auto;
+width:50rem;
+height:2rem;
+padding:5px;
+}
+
+.icon{
+color:orange;
+}
+
+
+@media (max-width: 768px) {
+  /* Adjust header */
+  #nav-bar {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .logo img {
+      max-width: 200px; /* Reduce logo size for smaller screens */
+  }
+
+  /* Adjust hero section */
+  #hero h2 {
+      font-size: 1.5rem; /* Smaller heading text */
+  }
+
+  #hero form {
+      width: 100%; /* Make form full-width */
+  }
+
+  /* Adjust icons and text in the features section */
+  #features {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+  }
+
+  .icon {
+      font-size: 3rem;
+      margin-bottom: 10px;
+  }
+
+  .text h2 {
+      font-size: 1.5rem;
+  }
+
+  .text p {
+      font-size: 1rem;
+  }
+
+  /* Adjust pricing section layout */
+  #pricing {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+
+  #tenor, #bass, #valve {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+  }
+
+  #tenor h2, #bass h2, #valve h2 {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      width: 100%; /* Make buttons full width */
+  }
+}
