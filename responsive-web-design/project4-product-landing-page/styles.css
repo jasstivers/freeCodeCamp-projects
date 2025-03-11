@@ -5,130 +5,195 @@
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #FFF1DB; /* 背景色使用淡黄色 */
+  font-family: Arial, sans-serif;
 }
 
-#nav-bar{
-position: fixed;
-top: 0;
-left: 0;
-display: flex;
-width: 100%;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #D4BDAC; /* 导航栏背景色使用淡咖色 */
+  padding: 10px;
+  z-index: 1000;
+  border-bottom: 1px solid #536493; /* 下边框使用深蓝色 */
 }
 
-
-.logo {
-display: flex;
-justify-content: flex-start;
-align-items: center;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
-.logo img {
-max-width: 300px;
-width: 100%; /* 在 .logo 容器宽度内自适应 */
-height: auto; /* 避免图片拉伸 */
-margin-left: 20px; /* 仅在需要时使用 */
+#header-img {
+  max-width: 50px; /* 将logo图片的大小调小 */
+  height: auto;
 }
 
+.the-product {
+  font-size: 1.5rem;
+  color: #536493; /* 产品名使用深蓝色 */
+  margin-left: 10px;
+}
 
-
-
-
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
 
 .nav-link {
-text-decoration: none;
-color: black;
-font-size: 16px;
-margin-right:20px;
+  text-decoration: none;
+  color: #536493; /* 导航链接使用深蓝色 */
+  font-size: 16px;
 }
 
-
-
-#hero{
-margin:50px auto;
-text-align: center;
+#hero {
+  text-align: center;
+  margin: 100px auto 50px;
 }
 
-#hero>h2{
-display:flex;
-justify-content:center;
-margin-bottom:15px;
-}
-#hero>form{
-display:flex;
-justify-content:center;
-margin: 0 auto;
-width:50rem;
-height:2rem;
-padding:5px;
+#hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #536493; /* 主标题使用深蓝色 */
 }
 
-.icon{
-color:orange;
+#hero form {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
+#hero input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #D4BDAC; /* 输入框的边框使用淡咖色 */
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #88C273; /* 绿色背景 */
+  border: 2px solid #536493; /* 边框颜色 */
+  color: white; /* 字体颜色 */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #77a85e; /* 更深的绿色，当鼠标悬停时 */
+}
+
+#features {
+  display: flex;
+  flex-direction: column; /* 使元素垂直排列 */
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.icon {
+  margin-right: 20px; /* 图标和文本之间的间距 */
+  color: #88C273; /* 图标使用绿色 */
+}
+
+.text {
+  max-width: 600px; /* 可选：限制文本宽度，防止文本过宽 */
+}
+
+.text h2 {
+  color: #536493; /* 特征标题使用深蓝色 */
+  margin-bottom: 0;
+}
+
+#how-it-Works {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 如果需要全屏高度 */
+  margin: 0;
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+#electric, #upright, #grand {
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #D4BDAC; /* 价格区块边框使用淡咖色 */
+  background-color: #FFF1DB; /* 背景色使用淡黄色 */
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #88C273; /* 按钮背景使用绿色 */
+  color: white;
+  border: 2px solid #D4BDAC; /* 边框颜色 */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #77a85e; /* 更深的绿色，当鼠标悬停时 */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #536493; /* 页脚背景色使用深蓝色 */
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
 
 @media (max-width: 768px) {
-  /* Adjust header */
   #nav-bar {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
-  .logo img {
-      max-width: 200px; /* Reduce logo size for smaller screens */
+  #features, #pricing {
+    flex-direction: column;
+    align-items: center;
   }
 
-  /* Adjust hero section */
-  #hero h2 {
-      font-size: 1.5rem; /* Smaller heading text */
-  }
-
-  #hero form {
-      width: 100%; /* Make form full-width */
-  }
-
-  /* Adjust icons and text in the features section */
-  #features {
-      display: grid;
-      grid-template-columns: 1fr;
-      text-align: center;
-  }
-
-  .icon {
-      font-size: 3rem;
-      margin-bottom: 10px;
-  }
-
-  .text h2 {
-      font-size: 1.5rem;
-  }
-
-  .text p {
-      font-size: 1rem;
-  }
-
-  /* Adjust pricing section layout */
-  #pricing {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-  }
-
-  #tenor, #bass, #valve {
-      text-align: center;
-      padding: 20px;
-      border: 1px solid #ddd;
-  }
-
-  #tenor h2, #bass h2, #valve h2 {
-      font-size: 1.5rem;
-  }
-
-  .btn {
-      width: 100%; /* Make buttons full width */
+  .feature-item, .plan {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }

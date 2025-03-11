@@ -13,18 +13,23 @@
   <body>
     <header id="header">
       <nav id="nav-bar">
-        <div class="logo">
-          <img  id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo">
+        <div class="logo-container">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed57b246-53b8-4c57-b56d-195ea2fd73dd/d56do1o-a820bae3-58d9-4b3a-89c6-1f37dc62c1fa.png/v1/fill/w_900,h_441/piano_keyboard_cutie_mark_by_0nautile18e26_d56do1o-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDQxIiwicGF0aCI6IlwvZlwvZWQ1N2IyNDYtNTNiOC00YzU3LWI1NmQtMTk1ZWEyZmQ3M2RkXC9kNTZkbzFvLWE4MjBiYWUzLTU4ZDktNGIzYS04OWM2LTFmMzdkYzYyYzFmYS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yQSq69CEgqAwo3Dv0yb62mV5D9L8cgy0zNENWF1Ikdw"
+            alt="logo"
+            id="header-img"
+          />
+          <span class="the-product">Best Pianos</span>
         </div>
-        <div class="nav-links">
-          <a href="#features" class="nav-link">Features</a>
-          <a href="#how-it-Works" class="nav-link">How It Works</a>
-          <a href="#pricing" class="nav-link">Pricing</a>
-        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#how-it-Works" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
       </nav>
     </header>
     <section id="hero">
-      <h2>Handcrafted, home-made masterpieces</h2>
+      <h2>High-quality pianos</h2>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input id="email" type="email" name="email" placeholder="Enter your email address" required>
         <input id="submit" type="submit"></button>
@@ -32,67 +37,76 @@
     </section>
     <div class="container">
       <section id="features">
+        <div class="feature-item">
           <div class="icon">
-            <i class="fa fa-3x fa-fire"></i>
+            <i class="fa fa-3x fa-guitar"></i>
           </div>
           <div class="text">
-      <h2>Premium Materials</h2>
-      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <h2>Premium Sound</h2>
+            <p>Our keyboards and pianos deliver rich, clear tones that will elevate your playing experience.</p>
           </div>
-      <div class="icon">
+        </div>
+
+        <div class="feature-item">
+          <div class="icon">
             <i class="fa fa-3x fa-truck"></i>
           </div>
           <div class="text">
-      <h2>Fast Shipping</h2>
-      <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div>
-      <div class="icon">
-            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            <h2>Fast Shipping</h2>
+            <p>Get your piano delivered to your doorstep quickly, with free returns if you're not satisfied.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon">
+            <i class="fa fa-3x fa-check-circle"></i>
           </div>
           <div class="text">
-      <h2>Quality Assurance</h2>
-      <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div>
+            <h2>Quality Assurance</h2>
+            <p>Every piano is thoroughly tested to ensure top-notch performance and quality before it reaches you.</p>
+          </div>
+        </div>
       </section>
 
-    <section id="how-it-Works">
-      <iframe id="video"  src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" ></iframe>
-    </section>
+      <section id="how-it-Works">
+        <iframe id="video" src="https://www.youtube.com/embed/SdnGG0GU0lE" width="560" height="315"></iframe>
+      </section>
 
-    <section id="pricing">
-      <div id="tenor">
-        <div class="level">Tenor Trombone</div>
-          <h2>$600</h2>
+      <section id="pricing">
+        <div id="electric">
+          <div class="level">Electric Keyboard</div>
+          <h2>$300</h2>
           <p class="detail">
-            Lorem ipsum.<br>
-            Lorem ipsum.<br>
-            Lorem ipsum dolor.<br>
-            Lorem ipsum.
+            Compact design.<br>
+            88 weighted keys.<br>
+            Multiple sound options.<br>
+            Ideal for beginners and professionals.
           </p>
           <button class="btn" type="submit">Select</button>
-      </div>
-      <div id="bass">
-        <div class="level">Bass Trombone</div>
-          <h2>$900</h2>
+        </div>
+        <div id="upright">
+          <div class="level">Upright Piano</div>
+          <h2>$2000</h2>
           <p class="detail">
-            Lorem ipsum.<br>
-            Lorem ipsum.<br>
-            Lorem ipsum dolor.<br>
-            Lorem ipsum.
+            Traditional acoustic sound.<br>
+            Solid wood construction.<br>
+            Suitable for all skill levels.<br>
+            Beautiful finish.
           </p>
           <button class="btn" type="submit">Select</button>
-
-      </div>
-      <div id="valve">
-        <div class="level">Valve Trombone</div>
-          <h2>$1200</h2>
+        </div>
+        <div id="grand">
+          <div class="level">Grand Piano</div>
+          <h2>$5000</h2>
           <p class="detail">
-            Lorem ipsum.<br>
-            Lorem ipsum.<br>
-            Lorem ipsum dolor.<br>
-            Lorem ipsum.
+            Stunning sound and design.<br>
+            Professional-grade acoustic performance.<br>
+            Perfect for performances.<br>
+            Luxurious look and feel.
           </p>
-          <input class="btn" type="submit">Select</button>
-      </div>
-    </section>
+          <button class="btn" type="submit">Select</button>
+        </div>
+      </section>
 
       <footer>
         <ul>
@@ -100,10 +114,8 @@
           <li><a href="#">Terms</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <span>Copyright 2016, Original Trombones</span>
+        <span>Copyright 2016, Original Pianos</span>
       </footer>
-
-
     </div>
   </body>
 </html>
