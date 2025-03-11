@@ -10,6 +10,6 @@ This repository contains five projects for the freeCodeCamp Responsive Web Desig
 ## Live Demos
 1. [Survey Form](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project1-survey-form/)
 2. [Tribute Page](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project2-tribute-page/)
-3. [Technical Documentation Page](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project3-technical-documentation/)
+3. [Technical Documentation Page](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project3-technical-documentation-page/)
 4. [Product Landing Page](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project4-product-landing-page/)
-5. [Personal Portfolio](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project5-personal-portfolio/)
+5. [Personal Portfolio](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project5-personal-portfolio-webpage/)
