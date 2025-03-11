@@ -6,7 +6,7 @@ This repository contains the exercises and certification projects I have complet
 
 # FreeCodeCamp Responsive Web Design Projects
 
-This repository contains five projects for the freeCodeCamp Responsive Web Design Certification.
+This repository contains five custom projects for the freeCodeCamp Responsive Web Design Certification, along with 15 project exercises.
 ## Live Demos
 1. [Survey Form](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project1-survey-form/)
 2. [Tribute Page](https://jasstivers.github.io/freeCodeCamp-projects/responsive-web-design/project2-tribute-page/)
