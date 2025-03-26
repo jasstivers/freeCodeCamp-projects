@@ -23,6 +23,10 @@ body {
   border-bottom: 1px solid #536493;
 }
 
+.nav-links{
+  list-style-type: none;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -94,6 +98,8 @@ body {
   align-items: center;
   padding: 50px 20px;
   text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .feature-item {
@@ -116,29 +122,52 @@ body {
   color: #536493;
 }
 
+
 #how-it-Works {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 0;
 }
+
+#video {
+  margin: 0; /* 调整空白距离，值可以根据需要修改 */
+}
+
+
 
 #pricing {
   display: flex;
   justify-content: space-around;
+  padding-top:0;
   padding: 50px 20px;
+  line-height: 1.5;
+
+
+}
+
+.price{
+  margin:10px;
+}
+
+.level{
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #electric, #upright, #grand {
+  width:25%;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
   border: 1px solid #D4BDAC;
   background-color: #FFF1DB;
   border-radius: 5px;
 }
 
 .btn {
+
   display: block;
   margin: 10px auto;
   padding: 10px 20px;
